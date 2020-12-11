@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE-edge">
+<meta name="viewport" content="width=device-width, intial-scale=1.0">
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="lightslider.css">
+<script src="JQuery3.3.1.js"></script>
+<script src="lightslider.js"></script>
+<title>Az online library</title>
+	<style>
+		body{
+			font-family:poppins;
+		}
+	</style>
+</head>
+<body>
+    <nav>
+        <a href="#" class="logo">
+            <img src="logo.png"/>
+        </a>
+        <input type="checkbox" class="menu-btn" id="menu-btn"/>
+        <label class="menu-icon" for="menu-btn">
+            <span class="nav-icon"></span>
+        </label>
+        <ul class="menu">
+            <li><a href="index.html">Нүүр</a></li>
+            <li><a href="books.html">Ном</a></li>
+            <li><a href="podcast.html">Подкаст</a></li>
+            <li><a href="author.html">Зохиолчид</a></li>
+        </ul>
+        <div class="search">
+            <input type="text" placeholder="Хайх"/>
+            <i class="fas fa-search"></i>
+        </div>
+    </nav>
+    <section id="main">
+        <h1 class="podcast-heading">Подкаст</h1>
+        
+        <ul id="autoWidth" class="cs-hidden">
+        
+        <li>
+           <div class="podcast-box">
+               <img src="podcasts/1.jpeg"/>
+               <p>zuna</p>
+           </div>
+        </li>
+            <li>
+               <div class="podcast-box">
+                   <img src="podcasts/2.jpg"/>
+               </div>
+        </li>
+            <li>
+               <div class="podcast-box">
+                   <img src="podcasts/3.png"/>
+               </div>
+                   </li>
+            <li>
+               <div class="podcast-box">
+                   <img src="podcasts/5.jpg"/>
+               </div>
+            </li>
+            <li>
+               <div class="podcast-box">
+                   <img src="podcasts/6.jpg"/>
+               </div>
+            </li>
+          </ul>
+        
+    </section>
+    <section id="main">
+        <h1 class="podcast-heading">Подкаст</h1>
+        
+        <ul id="autoWidth" class="cs-hidden">
+        
+        <li>
+           <div class="podcast-box">
+               <img src="podcasts/1.jpeg"/>
+               <p>zuna</p>
+           </div>
+        </li>
+            <li>
+               <div class="podcast-box">
+                   <img src="podcasts/2.jpg"/>
+               </div>
+        </li>
+            <li>
+               <div class="podcast-box">
+                   <img src="podcasts/3.png"/>
+               </div>
+                   </li>
+            <li>
+               <div class="podcast-box">
+                   <img src="podcasts/5.jpg"/>
+               </div>
+            </li>
+            <li>
+               <div class="podcast-box">
+                   <img src="podcasts/6.jpg"/>
+               </div>
+            </li>
+          </ul>
+        
+    </section><section id="main">
+        <h1 class="podcast-heading">Подкаст</h1>
+        
+        <ul id="autoWidth" class="cs-hidden">
+        
+        <li>
+           <div class="podcast-box">
+               <img src="podcasts/1.jpeg"/>
+               <p>zuna</p>
+           </div>
+        </li>
+            <li>
+               <div class="podcast-box">
+                   <img src="podcasts/2.jpg"/>
+               </div>
+        </li>
+            <li>
+               <div class="podcast-box">
+                   <img src="podcasts/3.png"/>
+               </div>
+                   </li>
+            <li>
+               <div class="podcast-box">
+                   <img src="podcasts/5.jpg"/>
+               </div>
+            </li>
+            <li>
+               <div class="podcast-box">
+                   <img src="podcasts/6.jpg"/>
+               </div>
+            </li>
+          </ul>
+        
+    </section>
+    <script>
+        $(document).ready(function() {
+    $('#autoWidth,#autoWidth2').lightSlider({
+        autoWidth:true,
+        loop:true,
+        onSliderLoad: function() {
+            $('#autoWidth,#autoWidth2').removeClass('cS-hidden');
+        } 
+    });  
+  });
+    </script>
+</body>
+</html>
