@@ -1,0 +1,160 @@
+body {
+	background-color: E8E7E7; 
+	font-family: Helvetica, Arial, sans-serif; 
+}
+a {
+	text-decoration: none; 
+}
+h1, h2, h3 {
+	margin: 0; 
+}
+#container {
+	background-color: #EFEFEF; 
+	width: 1200px; 
+	margin-left: auto; 
+	margin-right: auto; 
+}
+#header {
+	background-color: #7CC2B9; 
+	padding: 5px; 
+}
+.logo img {
+    height: 70px;
+}
+#header .login, .register {
+	float: right; 
+	margin-right: 20px; 
+	color: white; 
+	position: relative; 
+}
+
+#content {
+	padding: 10px; 
+}
+#nav {
+	margin-top: 10px;
+	width: 150px; 
+	float: left; 
+}
+#nav .selected {
+	font-weight: bold; 
+}
+
+#nav ul {
+	list-style-type: none; 
+	padding: 0; 
+}
+#main {
+	width: 1000px; 
+	float: right; 
+}
+.tailbar {
+	margin-left: 330px;
+	margin-right: 30px;
+	text-align: justify;
+	text-justify: inter-word;
+}
+#footer {
+	clear: both; 
+	padding: 10px; 
+	background-color: 4FA297; 
+	color: white; 
+	text-align: right; 
+}
+
+* {box-sizing: border-box}
+body {font-family: Verdana, sans-serif; margin:0}
+.mySlides {display: none}
+img {vertical-align: middle;}
+
+.slider {
+	max-width: 300px;
+	position: relative;
+	margin: auto;
+	margin-top: 10px;
+	float: left;
+}
+
+.prev, .next {
+	cursor: pointer;
+	position: absolute;
+	top: 50%;
+	width: auto;
+	padding: 16px;
+	margin-top: -22px;
+	color: white;
+	font-weight: bold;
+	font-size: 18px;
+	transition: 0.6s ease;
+	border-radius: 0 3px 3px 0;
+	user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+	right: 0;
+	border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+background-color: #7CC2B9;
+}
+
+/* Caption text */
+.text {
+	color: white;
+	font-size: 15px;
+	padding: 8px 12px;
+	position: absolute;
+	bottom: 8px;
+	width: 100%;
+	text-align: center;
+}
+
+/* deer ni garah too*/
+.numbertext {
+	color: #f2f2f2;
+	font-size: 12px;
+	padding: 8px 12px;
+	position: absolute;
+	top: 0;
+}
+
+/* .dot {
+	cursor: pointer;
+	height: 10px;
+	width: 15px;
+	margin: 0 2 0px;
+	background-color: #bbb;
+	border-radius: 50%;
+	display: inline-block;
+	transition: background-color 0.6s ease;
+}
+*/
+
+.active, .dot:hover {
+background-color: #717171;
+}
+
+.fade {
+	-webkit-animation-name: fade;
+	-webkit-animation-duration: 1.5s;
+	animation-name: fade;
+	animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+	from {opacity: .4} 
+	to {opacity: 1}
+}
+
+@keyframes fade {
+	from {opacity: .4} 
+	to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+.prev, .next,.text {font-size: 11px}
+}
